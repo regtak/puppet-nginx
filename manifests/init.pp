@@ -11,7 +11,7 @@ class nginx(
   String $config_pid_file              = $::nginx::params::config_pid_file,
   Optional[string] $config_vdir_enable = $::nginx::params::config_vdir_enable,
   String $config_process_user          = $::nginx::params::config_process_user,
-  String $service_pattern              = $::nginx::params::servcie_pattern,
+  String $service_pattern              = $::nginx::params::service_pattern,
   String $service_ensure               = $::nginx::params::service_ensure,
   String $service_name                 = $::nginx::params::service_name,
   Boolean $service_enable              = $::nginx::params::service_enable,
